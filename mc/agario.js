@@ -2232,29 +2232,30 @@
             this.checkUserItems()
         },
         onUserFbId: function (a) {},
-        checkUserItems: function () {
+        checkUserItems: function() {
             if (this.shopLoaded && this.userInfoLoaded && this.I18nLoaded) {
                 h.user.evaluateWallet();
-                var a = this.shopSkinsModel.getItemById(h.user.get_selectedSkin());
-                if (null != a) {
-                    var b = a.gamePlayInfo.get_shopImage(),
-                        githubPath = "https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/" + b,
-                        miniclipPath = window.ASSETS_ROOT + b;
+                var skinItem = this.shopSkinsModel.getItemById(h.user.get_selectedSkin());
+                if (skinItem) {
+                    var skinFilename = skinItem.gamePlayInfo.get_shopImage();
+                    
+                    // Extract just the filename if it's a full URL
+                    if (skinFilename.includes('/')) {
+                        skinFilename = skinFilename.split('/').pop();
+                    }
+                    
+                    var githubPath = "https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/" + skinFilename;
+                    var miniclipPath = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + skinFilename;
                     
                     // First try GitHub, then fall back to Miniclip
-                    var finalPath = githubPath;
-                    
-                    // Create a test image to check if GitHub path exists
                     var testImage = new Image();
                     testImage.onerror = function() {
-                        // GitHub path failed, use Miniclip path
-                        finalPath = miniclipPath.split('https://ext.agarbot.ovh/mc/config/2257/')[1];
-                        finalPath = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + finalPath;
-                        h.services.gameui.setUserSkin(finalPath, a.gamePlayInfo.get_cellColor(), a.tab);
+                        // GitHub failed, try Miniclip
+                        h.services.gameui.setUserSkin(miniclipPath, skinItem.gamePlayInfo.get_cellColor(), skinItem.tab);
                     };
                     testImage.onload = function() {
-                        // GitHub path works, use it
-                        h.services.gameui.setUserSkin(finalPath, a.gamePlayInfo.get_cellColor(), a.tab);
+                        // GitHub works
+                        h.services.gameui.setUserSkin(githubPath, skinItem.gamePlayInfo.get_cellColor(), skinItem.tab);
                     };
                     testImage.src = githubPath;
                 } else {
@@ -15688,65 +15689,66 @@ var agario_proto_Realm_$info = function () {
             agarApp.account.setUserData(h.user.userInfo);
             this.enableShop()
         },
-        setUserSkin: function (a, b, c) {
-            // Function to handle the final skin setting
-            function setSkin(finalUrl) {
+        setUserSkin: function(a, b, c) {
+            function setFinalSkin(finalUrl) {
                 null == c && (c = "");
                 null == b && (b = "");
-                var d = $("#skinButton img");
-                d.addClass("circle bordered");
-                d.height("90px");
-                if (finalUrl == h.user.defaultSkin) {
+                var skinImg = $("#skinButton img");
+                skinImg.addClass("circle bordered");
+                skinImg.height("90px");
+                
+                if (finalUrl == h.user.defaultSkin || !finalUrl) {
                     $("#skinLabel").fadeIn(100);
-                    d.fadeOut(100);
-                    d.attr("src", "");
+                    skinImg.fadeOut(100);
+                    skinImg.attr("src", "");
                     $("#skinButton").addClass("circle bordered");
                     $("#skinButton").height("90px");
                 } else {
-                    var e = $("#skinLabel");
-                    d.attr("src", finalUrl);
-                    d.css("border", "3px solid " + P.replace(b, "0x", "#"));
-                    e.fadeOut(100);
-                    d.fadeIn(100);
+                    var skinLabel = $("#skinLabel");
+                    skinImg.attr("src", finalUrl);
+                    skinImg.css("border", "3px solid " + P.replace(b, "0x", "#"));
+                    skinLabel.fadeOut(100);
+                    skinImg.fadeIn(100);
                     $("#skinButton").removeClass("circle bordered");
                 }
                 $("#skinButton").attr("data-type", c);
             }
 
-            // If no skin URL provided, set empty skin
             if (!a) {
-                setSkin("");
+                setFinalSkin("");
                 return;
             }
 
-            // Check if this is an agarbot URL that needs conversion
-            var originalUrl = a;
-            if (a.split('https://ext.agarbot.ovh/mc/config/2257/')[1]) {
-                originalUrl = a.split('https://ext.agarbot.ovh/mc/config/2257/')[1];
+            // Extract just the filename if it's a full URL
+            var skinFilename = a;
+            if (a.includes('/')) {
+                skinFilename = a.split('/').pop();
             }
 
-            // Create GitHub path and Miniclip path
-            var githubPath = "https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/" + originalUrl;
-            var miniclipPath = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + originalUrl;
+            // Check if this is already one of our known URLs
+            if (a.startsWith("https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/") || 
+            a.startsWith("https://configs-web.agario.miniclippt.com/live/v15/2257/")) {
+                setFinalSkin(a);
+                return;
+            }
 
-            // First try GitHub
+            // Try both sources
+            var githubPath = "https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/" + skinFilename;
+            var miniclipPath = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + skinFilename;
+
             var testImage = new Image();
             testImage.onerror = function() {
-                // GitHub failed, try Miniclip
                 var fallbackTest = new Image();
                 fallbackTest.onerror = function() {
-                    // Both failed, use default skin
-                    setSkin(h.user.defaultSkin);
+                    setFinalSkin(h.user.defaultSkin);
                 };
                 fallbackTest.onload = function() {
-                    // Miniclip works
-                    setSkin(miniclipPath);
+                    setFinalSkin(miniclipPath);
                 };
                 fallbackTest.src = miniclipPath;
             };
             testImage.onload = function() {
-                // GitHub works
-                setSkin(githubPath);
+                setFinalSkin(githubPath);
             };
             testImage.src = githubPath;
         },
