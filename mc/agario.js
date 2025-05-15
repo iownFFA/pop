@@ -15689,27 +15689,68 @@ var agario_proto_Realm_$info = function () {
             agarApp.account.setUserData(h.user.userInfo);
             this.enableShop()
         },
-        setUserSkin: function (a, b, c) {
-			if (a.split('https://ext.agarbot.ovh/mc/config/2257/')[1])
-			{
-				a = a.split('https://ext.agarbot.ovh/mc/config/2257/')[1];
-				a = "https://configs-web.agario.miniclippt.com/live/v15/2257/"+ a
-			}
-            null == c && (c = "");
-            null == b && (b = "");
-            var d = $("#skinButton img");
-            d.addClass("circle bordered");
-            d.height("90px");
-            if (a == h.user.defaultSkin) $("#skinLabel").fadeIn(100), d.fadeOut(100), d.attr("src", ""), $("#skinButton").addClass("circle bordered"), $("#skinButton").height("90px");
-            else {
-                var e = $("#skinLabel");
-                d.attr("src", a);
-                d.css("border", "3px solid " + P.replace(b, "0x", "#"));
-                e.fadeOut(100);
-                d.fadeIn(100);
-                $("#skinButton").removeClass("circle bordered")
+        setUserSkin: function(a, b, c) {
+            function setFinalSkin(finalUrl) {
+                null == c && (c = "");
+                null == b && (b = "");
+                var skinImg = $("#skinButton img");
+                skinImg.addClass("circle bordered");
+                skinImg.height("90px");
+                
+                if (finalUrl == h.user.defaultSkin || !finalUrl) {
+                    $("#skinLabel").fadeIn(100);
+                    skinImg.fadeOut(100);
+                    skinImg.attr("src", "");
+                    $("#skinButton").addClass("circle bordered");
+                    $("#skinButton").height("90px");
+                } else {
+                    var skinLabel = $("#skinLabel");
+                    skinImg.attr("src", finalUrl);
+                    skinImg.css("border", "3px solid " + P.replace(b, "0x", "#"));
+                    skinLabel.fadeOut(100);
+                    skinImg.fadeIn(100);
+                    $("#skinButton").removeClass("circle bordered");
+                }
+                $("#skinButton").attr("data-type", c);
             }
-            $("#skinButton").attr("data-type", c)
+
+            if (!a) {
+                setFinalSkin("");
+                return;
+            }
+
+            // Extract just the filename if it's a full URL
+            var skinFilename = a;
+            if (a.includes('/')) {
+                skinFilename = a.split('/').pop();
+            }
+
+            // Check if this is already one of our known URLs
+            if (a.startsWith("https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/") || 
+            a.startsWith("https://configs-web.agario.miniclippt.com/live/v15/2257/")) {
+                setFinalSkin(a);
+                return;
+            }
+
+            // Try both sources
+            var githubPath = "https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/" + skinFilename;
+            var miniclipPath = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + skinFilename;
+
+            var testImage = new Image();
+            testImage.onerror = function() {
+                var fallbackTest = new Image();
+                fallbackTest.onerror = function() {
+                    setFinalSkin(h.user.defaultSkin);
+                };
+                fallbackTest.onload = function() {
+                    setFinalSkin(miniclipPath);
+                };
+                fallbackTest.src = miniclipPath;
+            };
+            testImage.onload = function() {
+                setFinalSkin(githubPath);
+            };
+            testImage.src = githubPath;
         },
         setMobileUser: function (a) {
             0 == a && ($(".agario-promo").fadeOut(400), $("#agario-web-incentive").delay(800).fadeIn(400))
