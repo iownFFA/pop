@@ -22926,70 +22926,24 @@ var agario_proto_Realm_$info = function () {
             return null == a || 0 > a.x && (a.width -= -a.x, a.x = 0, 0 >= a.x + a.width) || 0 > a.y && (a.height -= -a.y, a.y = 0, 0 >= a.y + a.height) || a.x + a.width >= this.width && (a.width -= a.x + a.width -
                 this.width, 0 >= a.width) || a.y + a.height >= this.height && (a.height -= a.y + a.height - this.height, 0 >= a.height) ? null : a
         },
-        __fromFile: function(a, b, c) {
-            // If the URL is already from GitHub or Miniclip, use it directly
-            if (a.includes("raw.githubusercontent.com/iownFFA") || 
-                a.includes("configs-web.agario.miniclippt.com")) {
-                var d = this,
-                    e = new Image();
-                e.crossOrigin = "Anonymous";
-                e.onload = function() {
-                    d.buffer = new jd(null, e.width, e.height);
-                    d.buffer.__srcImage = e;
-                    d.width = e.width;
-                    d.height = e.height;
-                    null != b && b(d);
-                };
-                e.onerror = function() {
-                    null != c && c();
-                };
-                e.src = a;
-                return;
-            }
-
-            // Original URL processing for agarbot URLs
-            if (a.includes('ext.agarbot.ovh')) {
-                a = a.split('https://ext.agarbot.ovh/mc/config/2257/')[1];
-                a = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + a;
-            }
-
-            // Extract just the filename
-            var filename = a.includes('/') ? a.split('/').pop() : a;
-            
-            // Create GitHub path
-            var githubPath = "https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/" + filename;
-            
-            var d = this;
-            var e = new Image();
-            e.crossOrigin = "Anonymous";
-            
-            // First try GitHub
-            e.onerror = function() {
-                // If GitHub fails, use the original processed URL (Miniclip)
-                var fallbackImage = new Image();
-                fallbackImage.crossOrigin = "Anonymous";
-                fallbackImage.onload = function() {
-                    d.buffer = new jd(null, fallbackImage.width, fallbackImage.height);
-                    d.buffer.__srcImage = fallbackImage;
-                    d.width = fallbackImage.width;
-                    d.height = fallbackImage.height;
-                    null != b && b(d);
-                };
-                fallbackImage.onerror = function() {
-                    null != c && c();
-                };
-                fallbackImage.src = a; // Use the original processed URL
-            };
-            
-            e.onload = function() {
+        __fromFile: function (a, b, c) {
+			a = a.split('https://ext.agarbot.ovh/mc/config/2257/')[1];
+			a = "https://configs-web.agario.miniclippt.com/live/v15/2257/"+ a
+			//lucky 
+            var d = this,
+                e = new Image;
+				e.crossOrigin = "Anonymous";
+            e.onload = function (a) {
                 d.buffer = new jd(null, e.width, e.height);
                 d.buffer.__srcImage = e;
                 d.width = e.width;
                 d.height = e.height;
-                null != b && b(d);
+                null != b && b(d)
             };
-            
-            e.src = githubPath;
+            e.onerror = function (a) {
+                null != c && c()
+            };
+            e.src = a
         },
         __fromImageBuffer: function (a) {
             this.buffer = a;
