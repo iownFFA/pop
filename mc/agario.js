@@ -22927,15 +22927,37 @@ var agario_proto_Realm_$info = function () {
                 this.width, 0 >= a.width) || a.y + a.height >= this.height && (a.height -= a.y + a.height - this.height, 0 >= a.height) ? null : a
         },
         __fromFile: function(a, b, c) {
-            // Extract just the filename if it's a full URL
-            var filename = a;
-            if (a.includes('/')) {
-                filename = a.split('/').pop();
+            // If the URL is already from GitHub or Miniclip, use it directly
+            if (a.includes("raw.githubusercontent.com/iownFFA") || 
+                a.includes("configs-web.agario.miniclippt.com")) {
+                var d = this,
+                    e = new Image();
+                e.crossOrigin = "Anonymous";
+                e.onload = function() {
+                    d.buffer = new jd(null, e.width, e.height);
+                    d.buffer.__srcImage = e;
+                    d.width = e.width;
+                    d.height = e.height;
+                    null != b && b(d);
+                };
+                e.onerror = function() {
+                    null != c && c();
+                };
+                e.src = a;
+                return;
             }
+
+            // Original URL processing for agarbot URLs
+            if (a.includes('ext.agarbot.ovh')) {
+                a = a.split('https://ext.agarbot.ovh/mc/config/2257/')[1];
+                a = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + a;
+            }
+
+            // Extract just the filename
+            var filename = a.includes('/') ? a.split('/').pop() : a;
             
-            // Create paths for both sources
+            // Create GitHub path
             var githubPath = "https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/" + filename;
-            var miniclipPath = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + filename;
             
             var d = this;
             var e = new Image();
@@ -22943,7 +22965,7 @@ var agario_proto_Realm_$info = function () {
             
             // First try GitHub
             e.onerror = function() {
-                // GitHub failed, try Miniclip
+                // If GitHub fails, use the original processed URL (Miniclip)
                 var fallbackImage = new Image();
                 fallbackImage.crossOrigin = "Anonymous";
                 fallbackImage.onload = function() {
@@ -22954,14 +22976,12 @@ var agario_proto_Realm_$info = function () {
                     null != b && b(d);
                 };
                 fallbackImage.onerror = function() {
-                    // Both sources failed
                     null != c && c();
                 };
-                fallbackImage.src = miniclipPath;
+                fallbackImage.src = a; // Use the original processed URL
             };
             
             e.onload = function() {
-                // GitHub worked
                 d.buffer = new jd(null, e.width, e.height);
                 d.buffer.__srcImage = e;
                 d.width = e.width;
