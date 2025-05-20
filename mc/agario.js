@@ -46,77 +46,77 @@
         Ga.preloader.create(Ga.config);
         var b = [],
             c = [];
-        b.push("mc/core-assets/Close.png");
+        b.push("https://iownffa.github.io/pop/mc/core-assets/Close.png");
         c.push("IMAGE");
-        b.push("mc/core-assets/Close_disabled.png");
+        b.push("https://iownffa.github.io/pop/mc/core-assets/Close_disabled.png");
         c.push("IMAGE");
-        b.push("mc/core-assets/oaktree.png");
+        b.push("https://iownffa.github.io/pop/mc/core-assets/oaktree.png");
         c.push("IMAGE");
-        b.push("mc/atlas/main_shop.png");
+        b.push("https://iownffa.github.io/pop/mc/atlas/main_shop.png");
         c.push("IMAGE");
-        b.push("mc/atlas/main_shop.xml");
+        b.push("https://iownffa.github.io/pop/mc/atlas/main_shop.xml");
         c.push("TEXT");
-        b.push("mc/img/Close.png");
+        b.push("https://iownffa.github.io/pop/mc/img/Close.png");
         c.push("IMAGE");
-        b.push("mc/img/Close_disabled.png");
+        b.push("https://iownffa.github.io/pop/mc/img/Close_disabled.png");
         c.push("IMAGE");
-        b.push("mc/img/Close_disabled_old.png");
+        b.push("https://iownffa.github.io/pop/mc/img/Close_disabled_old.png");
         c.push("IMAGE");
-        b.push("mc/img/Close_old.png");
+        b.push("https://iownffa.github.io/pop/mc/img/Close_old.png");
         c.push("IMAGE");
-        b.push("mc/img/Exp_Star.png");
+        b.push("https://iownffa.github.io/pop/mc/img/Exp_Star.png");
         c.push("IMAGE");
-        b.push("mc/img/FB_Arrow.png");
+        b.push("https://iownffa.github.io/pop/mc/img/FB_Arrow.png");
         c.push("IMAGE");
-        b.push("mc/img/Facebook_Share_BTN.png");
+        b.push("https://iownffa.github.io/pop/mc/img/Facebook_Share_BTN.png");
         c.push("IMAGE");
-        b.push("mc/img/Facebook_Symbol.png");
+        b.push("https://iownffa.github.io/pop/mc/img/Facebook_Symbol.png");
         c.push("IMAGE");
-        b.push("mc/img/Login_Play.png");
+        b.push("https://iownffa.github.io/pop/mc/img/Login_Play.png");
         c.push("IMAGE");
-        b.push("mc/img/Twitter_Share_BTN.png");
+        b.push("https://iownffa.github.io/pop/mc/img/Twitter_Share_BTN.png");
         c.push("IMAGE");
-        b.push("mc/img/arrow.png");
+        b.push("https://iownffa.github.io/pop/mc/img/arrow.png");
         c.push("IMAGE");
-        b.push("mc/img/back_button.png");
+        b.push("https://iownffa.github.io/pop/mc/img/back_button.png");
         c.push("IMAGE");
-        b.push("mc/img/currency_icon.png");
+        b.push("https://iownffa.github.io/pop/mc/img/currency_icon.png");
         c.push("IMAGE");
-        b.push("mc/img/fast_play.png");
+        b.push("https://iownffa.github.io/pop/mc/img/fast_play.png");
         c.push("IMAGE");
-        b.push("mc/img/giant_coin.png");
+        b.push("https://iownffa.github.io/pop/mc/img/giant_coin.png");
         c.push("IMAGE");
-        b.push("mc/img/hint.png");
+        b.push("https://iownffa.github.io/pop/mc/img/hint.png");
         c.push("IMAGE");
-        b.push("mc/img/incentive_android+iphone.png");
+        b.push("https://iownffa.github.io/pop/mc/img/incentive_android+iphone.png");
         c.push("IMAGE");
-        b.push("mc/img/incentive_android.png");
+        b.push("https://iownffa.github.io/pop/mc/img/incentive_android.png");
         c.push("IMAGE");
-        b.push("mc/img/incentive_android_button.png");
+        b.push("https://iownffa.github.io/pop/mc/img/incentive_android_button.png");
         c.push("IMAGE");
-        b.push("mc/img/incentive_iphone_button.png");
+        b.push("https://iownffa.github.io/pop/mc/img/incentive_iphone_button.png");
         c.push("IMAGE");
-        b.push("mc/img/massboost_2x_shop.png");
+        b.push("https://iownffa.github.io/pop/mc/img/massboost_2x_shop.png");
         c.push("IMAGE");
-        b.push("mc/img/massboost_3x_shop.png");
+        b.push("https://iownffa.github.io/pop/mc/img/massboost_3x_shop.png");
         c.push("IMAGE");
-        b.push("mc/img/multiplier_stamp.png");
+        b.push("https://iownffa.github.io/pop/mc/img/multiplier_stamp.png");
         c.push("IMAGE");
-        b.push("mc/img/not_for_guests.png");
+        b.push("https://iownffa.github.io/pop/mc/img/not_for_guests.png");
         c.push("IMAGE");
-        b.push("mc/img/play.png");
+        b.push("https://iownffa.github.io/pop/mc/img/play.png");
         c.push("IMAGE");
-        b.push("mc/img/profilepic_guest.png");
+        b.push("https://iownffa.github.io/pop/mc/img/profilepic_guest.png");
         c.push("IMAGE");
-        b.push("mc/img/sticker.png");
+        b.push("https://iownffa.github.io/pop/mc/img/sticker.png");
         c.push("IMAGE");
-        b.push("mc/img/xpboost_2x_shop.png");
+        b.push("https://iownffa.github.io/pop/mc/img/xpboost_2x_shop.png");
         c.push("IMAGE");
-        b.push("mc/img/xpboost_3x_shop.png");
+        b.push("https://iownffa.github.io/pop/mc/img/xpboost_3x_shop.png");
         c.push("IMAGE");
-        b.push("mc/particle/LevelUpSlotBar-ipadhd.plist");
+        b.push("https://iownffa.github.io/pop/mc/particle/LevelUpSlotBar-ipadhd.plist");
         c.push("TEXT");
-        b.push("mc/particle/LevelUpSlotBarParticle.png");
+        b.push("https://iownffa.github.io/pop/mc/particle/LevelUpSlotBarParticle.png");
         c.push("IMAGE");
 		//lucky
        /* if (null != Ga.config.assetsPrefix)
@@ -1162,112 +1162,112 @@
         this.path = new ga;
         this.onChange = new cb;
         var a;
-        a = "mc/core-assets/Close.png";
+        a = "https://iownffa.github.io/pop/mc/core-assets/Close.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/core-assets/Close_disabled.png";
+        a = "https://iownffa.github.io/pop/mc/core-assets/Close_disabled.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/core-assets/oaktree.png";
+        a = "https://iownffa.github.io/pop/mc/core-assets/oaktree.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/atlas/main_shop.png";
+        a = "https://iownffa.github.io/pop/mc/atlas/main_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/atlas/main_shop.xml";
+        a = "https://iownffa.github.io/pop/mc/atlas/main_shop.xml";
         this.path.set(a, a);
         this.type.set(a, "TEXT");
-        a = "mc/img/Close.png";
+        a = "https://iownffa.github.io/pop/mc/img/Close.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/Close_disabled.png";
+        a = "https://iownffa.github.io/pop/mc/img/Close_disabled.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/Close_disabled_old.png";
+        a = "https://iownffa.github.io/pop/mc/img/Close_disabled_old.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/Close_old.png";
+        a = "https://iownffa.github.io/pop/mc/img/Close_old.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/Exp_Star.png";
+        a = "https://iownffa.github.io/pop/mc/img/Exp_Star.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/FB_Arrow.png";
+        a = "https://iownffa.github.io/pop/mc/img/FB_Arrow.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/Facebook_Share_BTN.png";
+        a = "https://iownffa.github.io/pop/mc/img/Facebook_Share_BTN.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/Facebook_Symbol.png";
+        a = "https://iownffa.github.io/pop/mc/img/Facebook_Symbol.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/Login_Play.png";
+        a = "https://iownffa.github.io/pop/mc/img/Login_Play.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/Twitter_Share_BTN.png";
+        a = "https://iownffa.github.io/pop/mc/img/Twitter_Share_BTN.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/arrow.png";
+        a = "https://iownffa.github.io/pop/mc/img/arrow.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/back_button.png";
+        a = "https://iownffa.github.io/pop/mc/img/back_button.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/currency_icon.png";
+        a = "https://iownffa.github.io/pop/mc/img/currency_icon.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/fast_play.png";
+        a = "https://iownffa.github.io/pop/mc/img/fast_play.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/giant_coin.png";
+        a = "https://iownffa.github.io/pop/mc/img/giant_coin.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/hint.png";
+        a = "https://iownffa.github.io/pop/mc/img/hint.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/incentive_android+iphone.png";
+        a = "https://iownffa.github.io/pop/mc/img/incentive_android+iphone.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/incentive_android.png";
+        a = "https://iownffa.github.io/pop/mc/img/incentive_android.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/incentive_android_button.png";
+        a = "https://iownffa.github.io/pop/mc/img/incentive_android_button.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/incentive_iphone_button.png";
+        a = "https://iownffa.github.io/pop/mc/img/incentive_iphone_button.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/massboost_2x_shop.png";
+        a = "https://iownffa.github.io/pop/mc/img/massboost_2x_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/massboost_3x_shop.png";
+        a = "https://iownffa.github.io/pop/mc/img/massboost_3x_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/multiplier_stamp.png";
+        a = "https://iownffa.github.io/pop/mc/img/multiplier_stamp.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/not_for_guests.png";
+        a = "https://iownffa.github.io/pop/mc/img/not_for_guests.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/play.png";
+        a = "https://iownffa.github.io/pop/mc/img/play.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/profilepic_guest.png";
+        a = "https://iownffa.github.io/pop/mc/img/profilepic_guest.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/sticker.png";
+        a = "https://iownffa.github.io/pop/mc/img/sticker.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/xpboost_2x_shop.png";
+        a = "https://iownffa.github.io/pop/mc/img/xpboost_2x_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/img/xpboost_3x_shop.png";
+        a = "https://iownffa.github.io/pop/mc/img/xpboost_3x_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "mc/particle/LevelUpSlotBar-ipadhd.plist";
+        a = "https://iownffa.github.io/pop/mc/particle/LevelUpSlotBar-ipadhd.plist";
         this.path.set(a, a);
         this.type.set(a, "TEXT");
-        a = "mc/particle/LevelUpSlotBarParticle.png";
+        a = "https://iownffa.github.io/pop/mc/particle/LevelUpSlotBarParticle.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
         a = null;
@@ -3665,8 +3665,8 @@
         ue.call(this, a, b);
         this._serverModel = ma.getService(Kc);
         this._serverModel.register(62, k(this, this.onGameOver));
-        // this.avatarUrl = h.services.config.getRootUrl("mc/img/profilepic_guest.png")
-		this.avatarUrl = "mc/img/profilepic_guest.png";
+        // this.avatarUrl = h.services.config.getRootUrl("https://iownffa.github.io/pop/mc/img/profilepic_guest.png")
+		this.avatarUrl = "https://iownffa.github.io/pop/mc/img/profilepic_guest.png";
     };
     g["agario.module.shop.models.GameUser"] = ne;
     ne.__name__ = ["agario", "module", "shop", "models", "GameUser"];
@@ -14621,7 +14621,7 @@ var agario_proto_Realm_$info = function () {
                 void 0 == b && (b = "");
                 // return "" + b + "https://agarbot.ovh/mc/" + a
 				//lucky
-				return "" + b + "https://ext.agarbot.ovh/mc/" + a
+				return "" + b + "https://iownffa.github.io/pop/mc/" + a
             }
             return Db.getProperty("root_url") + ("mc/" + a)
         },
@@ -15877,7 +15877,7 @@ var agario_proto_Realm_$info = function () {
             this.setUserCoins(100);
             this.setUserName("Guest");
             // this.setUserAvatar(h.services.config.getRootUrl("img/profilepic_guest.png"));
-			this.setUserAvatar('mc/img/profilepic_guest.png');
+			this.setUserAvatar('https://iownffa.github.io/pop/mc/img/profilepic_guest.png');
             this.setUserXPBoost("0");
             this.setUserMassBoost("0");
             $("#agario-web-incentive").fadeOut(100);
@@ -25553,7 +25553,7 @@ var agario_proto_Realm_$info = function () {
             lineNumber: 34,
             className: "oaktree.OakTree",
             methodName: "init"
-        }) : (Vc.store("oaktree-logo", ab.getBitmapData("mc/core-assets/oaktree.png")), Vc.store("dialog-closebutton", ab.getBitmapData("mc/core-assets/Close.png")), Vc.store("dialog-closebutton-disabled", ab.getBitmapData("mc/core-assets/Close_disabled.png")), Ja._isInitialized = !0)
+        }) : (Vc.store("oaktree-logo", ab.getBitmapData("https://iownffa.github.io/pop/mc/core-assets/oaktree.png")), Vc.store("dialog-closebutton", ab.getBitmapData("https://iownffa.github.io/pop/mc/core-assets/Close.png")), Vc.store("dialog-closebutton-disabled", ab.getBitmapData("https://iownffa.github.io/pop/mc/core-assets/Close_disabled.png")), Ja._isInitialized = !0)
     };
     Ja.onEngineAddedToStage = function (a, b) {
         Ja.engine = a;
@@ -25896,7 +25896,7 @@ var agario_proto_Realm_$info = function () {
             this._assetHolder = new ga;
             var c = [];
 			//lucky
-            if (null != a /*&& a[0].src != "mc/atlas/main_shop.xml"*/)
+            if (null != a /*&& a[0].src != "https://iownffa.github.io/pop/mc/atlas/main_shop.xml"*/)
                 for (a = bd(a)(); a.hasNext();) {
                     var d = a.next();
                     c.push(vc.data_flow(d, k(this, this.processTextureAtlas), k(this, this.loadTextureAtlas)))
@@ -37083,7 +37083,7 @@ var agario_proto_Realm_$info = function () {
     la.whitegrey_tab = "whitegrey_tab";
     Ik.INGAME_ATLAS = [{
         id: "main_shop",
-        src: "mc/atlas/main_shop.xml"
+        src: "https://iownffa.github.io/pop/mc/atlas/main_shop.xml"
     }];
     Gk.list = [new Yi("echo", tg)];
     Db.properties = function (a) {
