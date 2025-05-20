@@ -46,11 +46,11 @@
         Ga.preloader.create(Ga.config);
         var b = [],
             c = [];
-        b.push("https://ext.agarbot.ovh/mc/core-assets/Close.png");
+        b.push("mc/core-assets/Close.png");
         c.push("IMAGE");
-        b.push("https://ext.agarbot.ovh/mc/core-assets/Close_disabled.png");
+        b.push("mc/core-assets/Close_disabled.png");
         c.push("IMAGE");
-        b.push("https://ext.agarbot.ovh/mc/core-assets/oaktree.png");
+        b.push("mc/core-assets/oaktree.png");
         c.push("IMAGE");
         b.push("https://ext.agarbot.ovh/mc/atlas/main_shop.png");
         c.push("IMAGE");
@@ -1162,13 +1162,13 @@
         this.path = new ga;
         this.onChange = new cb;
         var a;
-        a = "https://ext.agarbot.ovh/mc/core-assets/Close.png";
+        a = "mc/core-assets/Close.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://ext.agarbot.ovh/mc/core-assets/Close_disabled.png";
+        a = "mc/core-assets/Close_disabled.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://ext.agarbot.ovh/mc/core-assets/oaktree.png";
+        a = "mc/core-assets/oaktree.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
         a = "https://ext.agarbot.ovh/mc/atlas/main_shop.png";
@@ -25553,7 +25553,7 @@ var agario_proto_Realm_$info = function () {
             lineNumber: 34,
             className: "oaktree.OakTree",
             methodName: "init"
-        }) : (Vc.store("oaktree-logo", ab.getBitmapData("https://ext.agarbot.ovh/mc/core-assets/oaktree.png")), Vc.store("dialog-closebutton", ab.getBitmapData("https://ext.agarbot.ovh/mc/core-assets/Close.png")), Vc.store("dialog-closebutton-disabled", ab.getBitmapData("https://ext.agarbot.ovh/mc/core-assets/Close_disabled.png")), Ja._isInitialized = !0)
+        }) : (Vc.store("oaktree-logo", ab.getBitmapData("mc/core-assets/oaktree.png")), Vc.store("dialog-closebutton", ab.getBitmapData("mc/core-assets/Close.png")), Vc.store("dialog-closebutton-disabled", ab.getBitmapData("mc/core-assets/Close_disabled.png")), Ja._isInitialized = !0)
     };
     Ja.onEngineAddedToStage = function (a, b) {
         Ja.engine = a;
