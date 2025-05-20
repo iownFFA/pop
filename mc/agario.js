@@ -46,77 +46,77 @@
         Ga.preloader.create(Ga.config);
         var b = [],
             c = [];
-        b.push("https://iownffa.github.io/pop/mc/core-assets/Close.png");
+        b.push("https://ext.agarbot.ovh/mc/core-assets/Close.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/core-assets/Close_disabled.png");
+        b.push("https://ext.agarbot.ovh/mc/core-assets/Close_disabled.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/core-assets/oaktree.png");
+        b.push("https://ext.agarbot.ovh/mc/core-assets/oaktree.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/atlas/main_shop.png");
+        b.push("https://ext.agarbot.ovh/mc/atlas/main_shop.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/atlas/main_shop.xml");
+        b.push("https://ext.agarbot.ovh/mc/atlas/main_shop.xml");
         c.push("TEXT");
-        b.push("https://iownffa.github.io/pop/mc/img/Close.png");
+        b.push("https://ext.agarbot.ovh/mc/img/Close.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/Close_disabled.png");
+        b.push("https://ext.agarbot.ovh/mc/img/Close_disabled.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/Close_disabled_old.png");
+        b.push("https://ext.agarbot.ovh/mc/img/Close_disabled_old.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/Close_old.png");
+        b.push("https://ext.agarbot.ovh/mc/img/Close_old.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/Exp_Star.png");
+        b.push("https://ext.agarbot.ovh/mc/img/Exp_Star.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/FB_Arrow.png");
+        b.push("https://ext.agarbot.ovh/mc/img/FB_Arrow.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/Facebook_Share_BTN.png");
+        b.push("https://ext.agarbot.ovh/mc/img/Facebook_Share_BTN.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/Facebook_Symbol.png");
+        b.push("https://ext.agarbot.ovh/mc/img/Facebook_Symbol.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/Login_Play.png");
+        b.push("https://ext.agarbot.ovh/mc/img/Login_Play.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/Twitter_Share_BTN.png");
+        b.push("https://ext.agarbot.ovh/mc/img/Twitter_Share_BTN.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/arrow.png");
+        b.push("https://ext.agarbot.ovh/mc/img/arrow.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/back_button.png");
+        b.push("https://ext.agarbot.ovh/mc/img/back_button.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/currency_icon.png");
+        b.push("https://ext.agarbot.ovh/mc/img/currency_icon.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/fast_play.png");
+        b.push("https://ext.agarbot.ovh/mc/img/fast_play.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/giant_coin.png");
+        b.push("https://ext.agarbot.ovh/mc/img/giant_coin.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/hint.png");
+        b.push("https://ext.agarbot.ovh/mc/img/hint.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/incentive_android+iphone.png");
+        b.push("https://ext.agarbot.ovh/mc/img/incentive_android+iphone.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/incentive_android.png");
+        b.push("https://ext.agarbot.ovh/mc/img/incentive_android.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/incentive_android_button.png");
+        b.push("https://ext.agarbot.ovh/mc/img/incentive_android_button.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/incentive_iphone_button.png");
+        b.push("https://ext.agarbot.ovh/mc/img/incentive_iphone_button.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/massboost_2x_shop.png");
+        b.push("https://ext.agarbot.ovh/mc/img/massboost_2x_shop.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/massboost_3x_shop.png");
+        b.push("https://ext.agarbot.ovh/mc/img/massboost_3x_shop.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/multiplier_stamp.png");
+        b.push("https://ext.agarbot.ovh/mc/img/multiplier_stamp.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/not_for_guests.png");
+        b.push("https://ext.agarbot.ovh/mc/img/not_for_guests.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/play.png");
+        b.push("https://ext.agarbot.ovh/mc/img/play.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/profilepic_guest.png");
+        b.push("https://ext.agarbot.ovh/mc/img/profilepic_guest.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/sticker.png");
+        b.push("https://ext.agarbot.ovh/mc/img/sticker.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/xpboost_2x_shop.png");
+        b.push("https://ext.agarbot.ovh/mc/img/xpboost_2x_shop.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/img/xpboost_3x_shop.png");
+        b.push("https://ext.agarbot.ovh/mc/img/xpboost_3x_shop.png");
         c.push("IMAGE");
-        b.push("https://iownffa.github.io/pop/mc/particle/LevelUpSlotBar-ipadhd.plist");
+        b.push("https://ext.agarbot.ovh/mc/particle/LevelUpSlotBar-ipadhd.plist");
         c.push("TEXT");
-        b.push("https://iownffa.github.io/pop/mc/particle/LevelUpSlotBarParticle.png");
+        b.push("https://ext.agarbot.ovh/mc/particle/LevelUpSlotBarParticle.png");
         c.push("IMAGE");
 		//lucky
        /* if (null != Ga.config.assetsPrefix)
@@ -1162,112 +1162,112 @@
         this.path = new ga;
         this.onChange = new cb;
         var a;
-        a = "https://iownffa.github.io/pop/mc/core-assets/Close.png";
+        a = "https://ext.agarbot.ovh/mc/core-assets/Close.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/core-assets/Close_disabled.png";
+        a = "https://ext.agarbot.ovh/mc/core-assets/Close_disabled.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/core-assets/oaktree.png";
+        a = "https://ext.agarbot.ovh/mc/core-assets/oaktree.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/atlas/main_shop.png";
+        a = "https://ext.agarbot.ovh/mc/atlas/main_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/atlas/main_shop.xml";
+        a = "https://ext.agarbot.ovh/mc/atlas/main_shop.xml";
         this.path.set(a, a);
         this.type.set(a, "TEXT");
-        a = "https://iownffa.github.io/pop/mc/img/Close.png";
+        a = "https://ext.agarbot.ovh/mc/img/Close.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/Close_disabled.png";
+        a = "https://ext.agarbot.ovh/mc/img/Close_disabled.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/Close_disabled_old.png";
+        a = "https://ext.agarbot.ovh/mc/img/Close_disabled_old.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/Close_old.png";
+        a = "https://ext.agarbot.ovh/mc/img/Close_old.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/Exp_Star.png";
+        a = "https://ext.agarbot.ovh/mc/img/Exp_Star.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/FB_Arrow.png";
+        a = "https://ext.agarbot.ovh/mc/img/FB_Arrow.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/Facebook_Share_BTN.png";
+        a = "https://ext.agarbot.ovh/mc/img/Facebook_Share_BTN.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/Facebook_Symbol.png";
+        a = "https://ext.agarbot.ovh/mc/img/Facebook_Symbol.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/Login_Play.png";
+        a = "https://ext.agarbot.ovh/mc/img/Login_Play.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/Twitter_Share_BTN.png";
+        a = "https://ext.agarbot.ovh/mc/img/Twitter_Share_BTN.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/arrow.png";
+        a = "https://ext.agarbot.ovh/mc/img/arrow.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/back_button.png";
+        a = "https://ext.agarbot.ovh/mc/img/back_button.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/currency_icon.png";
+        a = "https://ext.agarbot.ovh/mc/img/currency_icon.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/fast_play.png";
+        a = "https://ext.agarbot.ovh/mc/img/fast_play.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/giant_coin.png";
+        a = "https://ext.agarbot.ovh/mc/img/giant_coin.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/hint.png";
+        a = "https://ext.agarbot.ovh/mc/img/hint.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/incentive_android+iphone.png";
+        a = "https://ext.agarbot.ovh/mc/img/incentive_android+iphone.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/incentive_android.png";
+        a = "https://ext.agarbot.ovh/mc/img/incentive_android.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/incentive_android_button.png";
+        a = "https://ext.agarbot.ovh/mc/img/incentive_android_button.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/incentive_iphone_button.png";
+        a = "https://ext.agarbot.ovh/mc/img/incentive_iphone_button.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/massboost_2x_shop.png";
+        a = "https://ext.agarbot.ovh/mc/img/massboost_2x_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/massboost_3x_shop.png";
+        a = "https://ext.agarbot.ovh/mc/img/massboost_3x_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/multiplier_stamp.png";
+        a = "https://ext.agarbot.ovh/mc/img/multiplier_stamp.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/not_for_guests.png";
+        a = "https://ext.agarbot.ovh/mc/img/not_for_guests.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/play.png";
+        a = "https://ext.agarbot.ovh/mc/img/play.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/profilepic_guest.png";
+        a = "https://ext.agarbot.ovh/mc/img/profilepic_guest.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/sticker.png";
+        a = "https://ext.agarbot.ovh/mc/img/sticker.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/xpboost_2x_shop.png";
+        a = "https://ext.agarbot.ovh/mc/img/xpboost_2x_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/img/xpboost_3x_shop.png";
+        a = "https://ext.agarbot.ovh/mc/img/xpboost_3x_shop.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
-        a = "https://iownffa.github.io/pop/mc/particle/LevelUpSlotBar-ipadhd.plist";
+        a = "https://ext.agarbot.ovh/mc/particle/LevelUpSlotBar-ipadhd.plist";
         this.path.set(a, a);
         this.type.set(a, "TEXT");
-        a = "https://iownffa.github.io/pop/mc/particle/LevelUpSlotBarParticle.png";
+        a = "https://ext.agarbot.ovh/mc/particle/LevelUpSlotBarParticle.png";
         this.path.set(a, a);
         this.type.set(a, "IMAGE");
         a = null;
@@ -2232,35 +2232,17 @@
             this.checkUserItems()
         },
         onUserFbId: function (a) {},
-        checkUserItems: function() {
+        checkUserItems: function () {
             if (this.shopLoaded && this.userInfoLoaded && this.I18nLoaded) {
                 h.user.evaluateWallet();
-                var skinItem = this.shopSkinsModel.getItemById(h.user.get_selectedSkin());
-                if (skinItem) {
-                    var skinFilename = skinItem.gamePlayInfo.get_shopImage();
-                    
-                    // Extract just the filename if it's a full URL
-                    if (skinFilename.includes('/')) {
-                        skinFilename = skinFilename.split('/').pop();
-                    }
-                    
-                    var githubPath = "https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/" + skinFilename;
-                    var miniclipPath = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + skinFilename;
-                    
-                    // First try GitHub, then fall back to Miniclip
-                    var testImage = new Image();
-                    testImage.onerror = function() {
-                        // GitHub failed, try Miniclip
-                        h.services.gameui.setUserSkin(miniclipPath, skinItem.gamePlayInfo.get_cellColor(), skinItem.tab);
-                    };
-                    testImage.onload = function() {
-                        // GitHub works
-                        h.services.gameui.setUserSkin(githubPath, skinItem.gamePlayInfo.get_cellColor(), skinItem.tab);
-                    };
-                    testImage.src = githubPath;
-                } else {
-                    h.services.gameui.setUserSkin("");
-                }
+                var a = this.shopSkinsModel.getItemById(h.user.get_selectedSkin());
+                if (null != a) {
+                    var b = a.gamePlayInfo.get_shopImage(),
+                        b = window.ASSETS_ROOT + b;
+						b = b.split('https://ext.agarbot.ovh/mc/config/2257/')[1];
+						b = "https://configs-web.agario.miniclippt.com/live/v15/2257/"+ b
+                    h.services.gameui.setUserSkin(b, a.gamePlayInfo.get_cellColor(), a.tab)
+                } else h.services.gameui.setUserSkin("")
             }
         },
         handleShopInit: function (a) {
@@ -3665,8 +3647,8 @@
         ue.call(this, a, b);
         this._serverModel = ma.getService(Kc);
         this._serverModel.register(62, k(this, this.onGameOver));
-        // this.avatarUrl = h.services.config.getRootUrl("https://iownffa.github.io/pop/mc/img/profilepic_guest.png")
-		this.avatarUrl = "https://iownffa.github.io/pop/mc/img/profilepic_guest.png";
+        // this.avatarUrl = h.services.config.getRootUrl("mc/img/profilepic_guest.png")
+		this.avatarUrl = "https://ext.agarbot.ovh/mc/img/profilepic_guest.png";
     };
     g["agario.module.shop.models.GameUser"] = ne;
     ne.__name__ = ["agario", "module", "shop", "models", "GameUser"];
@@ -14621,7 +14603,7 @@ var agario_proto_Realm_$info = function () {
                 void 0 == b && (b = "");
                 // return "" + b + "https://agarbot.ovh/mc/" + a
 				//lucky
-				return "" + b + "https://iownffa.github.io/pop/mc/" + a
+				return "" + b + "https://ext.agarbot.ovh/mc/" + a
             }
             return Db.getProperty("root_url") + ("mc/" + a)
         },
@@ -15689,68 +15671,27 @@ var agario_proto_Realm_$info = function () {
             agarApp.account.setUserData(h.user.userInfo);
             this.enableShop()
         },
-        setUserSkin: function(a, b, c) {
-            function setFinalSkin(finalUrl) {
-                null == c && (c = "");
-                null == b && (b = "");
-                var skinImg = $("#skinButton img");
-                skinImg.addClass("circle bordered");
-                skinImg.height("90px");
-                
-                if (finalUrl == h.user.defaultSkin || !finalUrl) {
-                    $("#skinLabel").fadeIn(100);
-                    skinImg.fadeOut(100);
-                    skinImg.attr("src", "");
-                    $("#skinButton").addClass("circle bordered");
-                    $("#skinButton").height("90px");
-                } else {
-                    var skinLabel = $("#skinLabel");
-                    skinImg.attr("src", finalUrl);
-                    skinImg.css("border", "3px solid " + P.replace(b, "0x", "#"));
-                    skinLabel.fadeOut(100);
-                    skinImg.fadeIn(100);
-                    $("#skinButton").removeClass("circle bordered");
-                }
-                $("#skinButton").attr("data-type", c);
+        setUserSkin: function (a, b, c) {
+			if (a.split('https://ext.agarbot.ovh/mc/config/2257/')[1])
+			{
+				a = a.split('https://ext.agarbot.ovh/mc/config/2257/')[1];
+				a = "https://configs-web.agario.miniclippt.com/live/v15/2257/"+ a
+			}
+            null == c && (c = "");
+            null == b && (b = "");
+            var d = $("#skinButton img");
+            d.addClass("circle bordered");
+            d.height("90px");
+            if (a == h.user.defaultSkin) $("#skinLabel").fadeIn(100), d.fadeOut(100), d.attr("src", ""), $("#skinButton").addClass("circle bordered"), $("#skinButton").height("90px");
+            else {
+                var e = $("#skinLabel");
+                d.attr("src", a);
+                d.css("border", "3px solid " + P.replace(b, "0x", "#"));
+                e.fadeOut(100);
+                d.fadeIn(100);
+                $("#skinButton").removeClass("circle bordered")
             }
-
-            if (!a) {
-                setFinalSkin("");
-                return;
-            }
-
-            // Extract just the filename if it's a full URL
-            var skinFilename = a;
-            if (a.includes('/')) {
-                skinFilename = a.split('/').pop();
-            }
-
-            // Check if this is already one of our known URLs
-            if (a.startsWith("https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/") || 
-            a.startsWith("https://configs-web.agario.miniclippt.com/live/v15/2257/")) {
-                setFinalSkin(a);
-                return;
-            }
-
-            // Try both sources
-            var githubPath = "https://raw.githubusercontent.com/iownFFA/pop/main/img/skins/" + skinFilename;
-            var miniclipPath = "https://configs-web.agario.miniclippt.com/live/v15/2257/" + skinFilename;
-
-            var testImage = new Image();
-            testImage.onerror = function() {
-                var fallbackTest = new Image();
-                fallbackTest.onerror = function() {
-                    setFinalSkin(h.user.defaultSkin);
-                };
-                fallbackTest.onload = function() {
-                    setFinalSkin(miniclipPath);
-                };
-                fallbackTest.src = miniclipPath;
-            };
-            testImage.onload = function() {
-                setFinalSkin(githubPath);
-            };
-            testImage.src = githubPath;
+            $("#skinButton").attr("data-type", c)
         },
         setMobileUser: function (a) {
             0 == a && ($(".agario-promo").fadeOut(400), $("#agario-web-incentive").delay(800).fadeIn(400))
@@ -15877,7 +15818,7 @@ var agario_proto_Realm_$info = function () {
             this.setUserCoins(100);
             this.setUserName("Guest");
             // this.setUserAvatar(h.services.config.getRootUrl("img/profilepic_guest.png"));
-			this.setUserAvatar('https://iownffa.github.io/pop/mc/img/profilepic_guest.png');
+			this.setUserAvatar('https://ext.agarbot.ovh/mc/img/profilepic_guest.png');
             this.setUserXPBoost("0");
             this.setUserMassBoost("0");
             $("#agario-web-incentive").fadeOut(100);
@@ -25553,7 +25494,7 @@ var agario_proto_Realm_$info = function () {
             lineNumber: 34,
             className: "oaktree.OakTree",
             methodName: "init"
-        }) : (Vc.store("oaktree-logo", ab.getBitmapData("https://iownffa.github.io/pop/mc/core-assets/oaktree.png")), Vc.store("dialog-closebutton", ab.getBitmapData("https://iownffa.github.io/pop/mc/core-assets/Close.png")), Vc.store("dialog-closebutton-disabled", ab.getBitmapData("https://iownffa.github.io/pop/mc/core-assets/Close_disabled.png")), Ja._isInitialized = !0)
+        }) : (Vc.store("oaktree-logo", ab.getBitmapData("https://ext.agarbot.ovh/mc/core-assets/oaktree.png")), Vc.store("dialog-closebutton", ab.getBitmapData("https://ext.agarbot.ovh/mc/core-assets/Close.png")), Vc.store("dialog-closebutton-disabled", ab.getBitmapData("https://ext.agarbot.ovh/mc/core-assets/Close_disabled.png")), Ja._isInitialized = !0)
     };
     Ja.onEngineAddedToStage = function (a, b) {
         Ja.engine = a;
@@ -25896,7 +25837,7 @@ var agario_proto_Realm_$info = function () {
             this._assetHolder = new ga;
             var c = [];
 			//lucky
-            if (null != a /*&& a[0].src != "https://iownffa.github.io/pop/mc/atlas/main_shop.xml"*/)
+            if (null != a /*&& a[0].src != "https://ext.agarbot.ovh/mc/atlas/main_shop.xml"*/)
                 for (a = bd(a)(); a.hasNext();) {
                     var d = a.next();
                     c.push(vc.data_flow(d, k(this, this.processTextureAtlas), k(this, this.loadTextureAtlas)))
@@ -37083,7 +37024,7 @@ var agario_proto_Realm_$info = function () {
     la.whitegrey_tab = "whitegrey_tab";
     Ik.INGAME_ATLAS = [{
         id: "main_shop",
-        src: "https://iownffa.github.io/pop/mc/atlas/main_shop.xml"
+        src: "https://ext.agarbot.ovh/mc/atlas/main_shop.xml"
     }];
     Gk.list = [new Yi("echo", tg)];
     Db.properties = function (a) {
