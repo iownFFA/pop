@@ -14621,7 +14621,7 @@ var agario_proto_Realm_$info = function () {
                 void 0 == b && (b = "");
                 // return "" + b + "https://agarbot.ovh/mc/" + a
 				//lucky
-				return "" + b + "https://iownffa.github.io/pop/mc/" + a
+				return "" + b + "https://ext.agarbot.ovh/mc/" + a
             }
             return Db.getProperty("root_url") + ("mc/" + a)
         },
@@ -15812,7 +15812,7 @@ var agario_proto_Realm_$info = function () {
         setIcon: function (a, b) {
 			// console.log('[DEBUG] setIcon '+b);
              // $(this.getTargetHTML(a) + " img").attr("src", Ga.config.assetsPrefix + b)
-			 $(this.getTargetHTML(a) + " img").attr("src", "https://iownffa.github.io/pop/mc/" + b)
+			 $(this.getTargetHTML(a) + " img").attr("src", "https://ext.agarbot.ovh/mc/" + b)
         },
         getTargetHTML: function (a) {
             var b = "";
