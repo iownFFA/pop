@@ -141,7 +141,7 @@
             build: "13515",
             company: "Miniclip",
             file: "agario",
-            fps: 60,
+            fps: 144,
             name: "Agario",
             orientation: "",
             packageName: "agario",
